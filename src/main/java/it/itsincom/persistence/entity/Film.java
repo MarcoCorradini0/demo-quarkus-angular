@@ -15,6 +15,12 @@ public class Film {
     public Long id;
 
     @Column(nullable = false)
-    public String name;
+    public String title;
+    public String genre;
+    public Number duration;
+    public String direction;
     public String description;
+    public String poster_url;
+    public Number year;
+    public String rating;
 }
