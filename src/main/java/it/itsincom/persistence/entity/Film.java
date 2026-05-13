@@ -17,10 +17,10 @@ public class Film {
     @Column(nullable = false)
     public String title;
     public String genre;
-    public Number duration;
+    public Integer duration;
     public String direction;
     public String description;
     public String poster_url;
-    public Number year;
+    public Integer year;
     public String rating;
 }
